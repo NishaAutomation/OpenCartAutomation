@@ -31,7 +31,7 @@ public class LoginPage {
 	
 	public AccountsPage userLogin(String un, String pw) {
 		
-		System.out.println("Your user name and password" + un + pw);
+		System.out.println("Your user name and password:" + un + pw);
 		
 		eleUtil.waitForElementVisible(emailid, AppConstants.DEFAULT_MEDIUM_TIMEOUT).sendKeys(un);
 		eleUtil.doSendKeys(password, pw);

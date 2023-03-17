@@ -35,7 +35,7 @@ public class AccountsPage {
 		for (WebElement e : accountHeadersList) {
 			String text = e.getText();
 			actualHeaders.add(text);
-			System.out.println("actualHeaders are" + actualHeaders);
+			System.out.println("actualHeaders are:" + actualHeaders);
 		}
 		return actualHeaders;
 
